@@ -75,4 +75,20 @@ In this lecture, we'll be getting this cat to show up on a web page :)
     `@media (min-width: 600px){body{background-color: lightblue;}}`
 
     3. **Flexbox**: Helpful if we have multiple elements that we're all trying to display on the same page at the same time that might overflow if we're not careful about how we do responsive design. It can wrap the elements around using the flex-wrap property(changes the location where they are placed) to maintain their relative sizes across screens of different sizes.
-    4. **Grids**:
+
+    `#container{display: flex; flex-wrap: wrap;}`
+
+    4. **Grids**: To arrange things in a particular grid, where maybe certain columns need to be certain widths but others can be a bit more flexible. For example:
+
+    ```
+    #grid{
+                background-color: lightpink;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 200px 200px auto;
+        }
+    ```
+
+* [**Bootstrap**](https://www.getbootstrap.com): A powerful CSS library that we can use in order to use some styling that they have written such that we don't need to write all the styling from scratch.
