@@ -62,4 +62,14 @@ In this lecture, we'll be getting this cat to show up on a web page :)
 ![CSS Selectors List](./css_selectors.jpeg)
 
 * Pseudo class is a way of giving a name to an HTML element that might not be unique and to enable styling those elements in a particular way under certain conditions, for example, when you hover your mouse over it.
-* 
+
+* **Responsive Design**:
+    1. **Viewport**: The visual part of the screen that the user can actually see. To help adjust the size of the contents relative to the size of the screen of the device, you can use the following functionality:
+    
+    `<meta name="viewport" content="width=device-width", initial-scale=1.0">`
+    This line of code is providing some metadata to out HTML page and saying, I would like you to change the width of the viewport to be specifically the width of the device.
+
+    2. **Media Queries**: Help control how the page is going to look depending on how we render that particular page or what size screen we are rendering that page on.
+
+    3. **Flexbox**:
+    4. **Grids**:
