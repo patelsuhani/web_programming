@@ -92,3 +92,23 @@ In this lecture, we'll be getting this cat to show up on a web page :)
     ```
 
 * [**Bootstrap**](https://www.getbootstrap.com): A powerful CSS library that we can use in order to use some styling that they have written such that we don't need to write all the styling from scratch.
+* Bootstrap's column model: Bootstrap divides its page into 12 distinct columns and allows the user to specify how many columns an element should take up. For example, the following element takes up 6 column units:
+```
+<div class="col-6">
+    This is a section
+</div>
+```
+* Columns are also mobile responsive and can wrap around other lines if they ever need to. 
+* Bootstrap also allows the user to specify how many units a column should take up depending on the size of the screen. For example:
+```
+    <div class="col-lg-3 col-sm-6">
+            This is a section
+    </div>
+```
+
+### Sass
+
+* It is a language that is an extension of CSS.
+* One of the key features is the ability to have variables.
+* File extension for Sass file is .scss
+* 
