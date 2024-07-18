@@ -112,3 +112,31 @@ In this lecture, we'll be getting this cat to show up on a web page :)
 * One of the key features is the ability to have variables.
 * File extension for Sass file is .scss
 * All variabled begin with a $ sign.
+* Web browsers can understand CSS but they can't by default understand Sass. So we need to compile it to a css file.
+* Gives the ability to nest css selectors within other css selectors.
+* Inheritance: If we have certain CSS selectors that are related to other CSS selectors, but they're maybe adding some additional information. Can do so using `@extend`. For example (in scss file):
+```
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: green;
+}
+
+.warning {
+    @extend %message;
+    background-color: orange;
+}
+
+.error{
+    @extend %message;
+    background-color: red;
+}
+```
