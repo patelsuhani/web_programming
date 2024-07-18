@@ -26,6 +26,21 @@
             .foo{
                 color: red;
             }
+            ul > li{
+                color: blueviolet;
+            }
+            a[href="https://facebook.com"]{
+                color:yellowgreen;
+            }
+            button{
+                width: 200px;
+                height: 50px;
+                font-size: 24px;
+                background-color: rgb(230, 57, 186);
+            }
+            button:hover{
+                background-color: rgb(57, 230, 186);
+            }
         </style>
         <body>
             <h1 class="foo">This is the largest heading!</h1>
@@ -36,13 +51,17 @@
             <ol>
                 <li>First item</li>
                 <li>Second item</li>
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul>
                 <li>Third item</li>
             </ol>
             An Unordered List:
             <ul>
-                <li> One item</li>
-                <li>Another item</li>
-                <li>Yet another item</li>
+                <li><a href="https://google.com">Google</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://amazon.com">Amazon</a></li>
             </ul>
             <img src="cat.jpeg" alt="cat">
             <br>
@@ -73,6 +92,7 @@
                 Some text in a div for trial.<br>
                 Some more text hahahahaha.<br>
             </div>
+            <button>Click me!</button>
         </body>
     </head>
 </html>

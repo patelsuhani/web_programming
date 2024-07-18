@@ -46,4 +46,20 @@ In this lecture, we'll be getting this cat to show up on a web page :)
 
     `table, td, th{ border: 1px solid black; }`
 
+* An ID is some unique name we give to an HTML element, so that we can reference it more easily later on.
+* To style a particular element by its ID, reference it by a #. For example: `#foo{color: red;}`
+
+* A class is a way of giving a name to an HTML element that might not be unique. For example: `<h1 class="bar">`
+* To style everything with a particular class, use a dot. For example: `.foo{color: red;}`
+
+* Specificity Order (decreasing):
+    1. inline (takes precedence over everything)
+    2. id
+    3. class
+    4. div
+
+* Different CSS Selectors:
+![CSS Selectors List](./css_selectors.jpeg)
+
+* Pseudo class is a way of giving a name to an HTML element that might not be unique and to enable styling those elements in a particular way under certain conditions, for example, when you hover your mouse over it.
 * 
