@@ -32,6 +32,7 @@ In this lecture, we'll be getting this cat to show up on a web page :)
     - font-weight
     - border (can specify how big, type of line, and color of line) 
     - border-collapse
+    - display (controls whether or not an element is visible)
 * All CSS can be moved to a separate file with .css extension. This allows us to style multiple webpages of the same website within a single file/at a single location. 
 
 * To link CSS file to HTML file:
@@ -69,7 +70,9 @@ In this lecture, we'll be getting this cat to show up on a web page :)
     `<meta name="viewport" content="width=device-width", initial-scale=1.0">`
     This line of code is providing some metadata to out HTML page and saying, I would like you to change the width of the viewport to be specifically the width of the device.
 
-    2. **Media Queries**: Help control how the page is going to look depending on how we render that particular page or what size screen we are rendering that page on.
+    2. **Media Queries**: Help control how the page is going to look depending on how we render that particular page or what size screen we are rendering that page on. We can use this to check if a mobile device is vertical or landscape. We can see if the user is viewing the page on a computer screen or if they are trying to print the contents of the page as well.
+    
+    `@media (min-width: 600px){body{background-color: lightblue;}}`
 
-    3. **Flexbox**:
+    3. **Flexbox**: Helpful if we have multiple elements that we're all trying to display on the same page at the same time that might overflow if we're not careful about how we do responsive design. It can wrap the elements around using the flex-wrap property(changes the location where they are placed) to maintain their relative sizes across screens of different sizes.
     4. **Grids**:
