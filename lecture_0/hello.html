@@ -3,10 +3,34 @@
     <head>
         <title>Hello!</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            div{
+                background-color: green;
+                width: 200px;
+                height: 200px;
+                padding: 20px;
+                margin: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 28px;
+                font-weight: bold;
+                border: 3px solid black;
+            }
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td, th{
+                border: 1px solid black;
+                padding: 5px;
+            }
+            #foo{
+                color: red;
+            }
+        </style>
         <body>
-            <h1>This is the largest heading!</h1>
+            <h1 id="foo">This is the largest heading!</h1>
             <h2>This is a smaller heading</h2>
-            <h3>Smallest heading</h3>
+            <h3>Smallest heading</h2>
             Hello, world!
             An Ordered List:
             <ol>
@@ -27,9 +51,9 @@
             <table>
                 <thead>
                     <tr>
-                        <td>Oceans</td>
-                        <td>Average Depth</td>
-                        <td>Maximum Depth</td>
+                        <th>Oceans</th>
+                        <th>Average Depth</th>
+                        <th>Maximum Depth</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -46,8 +70,8 @@
                 </tbody>
             </table>
             <div>
-                <p>Some text</p>
-                <p>Some more text</p>
+                Some text in a div for trial.<br>
+                Some more text hahahahaha.<br>
             </div>
         </body>
     </head>
