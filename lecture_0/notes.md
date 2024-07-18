@@ -111,4 +111,4 @@ In this lecture, we'll be getting this cat to show up on a web page :)
 * It is a language that is an extension of CSS.
 * One of the key features is the ability to have variables.
 * File extension for Sass file is .scss
-* 
+* All variabled begin with a $ sign.
