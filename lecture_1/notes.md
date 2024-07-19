@@ -30,7 +30,10 @@ Learning Git, a version control tool, not specific to web programming.
 
 * `git pull` takes the changes that currently exist on GitHub and pulls the most recent changes down, so that the local repo has access to the latest version of all the code that is currently on GitHub.
 
+* `git log` is useful if you ever need to keep track of all the changes that you have made to your code, i.e., keep track of all the commits you have made to the repo.
+
 * 
+
 ### Terminology
 
  * To make a **commit** is to save the current state of all the files, folders, and other assets in the repo.
@@ -41,4 +44,8 @@ Learning Git, a version control tool, not specific to web programming.
 
  ![resolving merge conflict](./merge_conflict.jpeg)
 
+ * To **resolve a merge conflict**, open the file with the conflict(s) and modify it until you are satisfied with the changes and remove the commit markers that git added automatically.
+
  * **hash** is the unique sequence of numbers and characters that helps to identify any particular commit.
+
+ * 
