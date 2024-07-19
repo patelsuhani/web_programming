@@ -32,6 +32,10 @@ Learning Git, a version control tool, not specific to web programming.
 
 * `git log` is useful if you ever need to keep track of all the changes that you have made to your code, i.e., keep track of all the commits you have made to the repo.
 
+* `git reset --hard <commit>` is used if you want to go back to a previous commit. A hard reset is used when you want to reset everything back to a particular commit (using its commit hash).
+
+* `git reset --hard origin/master` is used to reset the current version of the local repo to the latest version of the remote repo (on GitHub).
+
 * 
 
 ### Terminology
