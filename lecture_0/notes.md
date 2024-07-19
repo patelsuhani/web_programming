@@ -60,7 +60,7 @@ In this lecture, we'll be getting this cat to show up on a web page :)
     4. div
 
 * Different CSS Selectors:
-![CSS Selectors List](./css_selectors.jpeg)
+![CSS Selectors List](./css_selectors.jpg)
 
 * Pseudo class is a way of giving a name to an HTML element that might not be unique and to enable styling those elements in a particular way under certain conditions, for example, when you hover your mouse over it.
 
@@ -140,3 +140,4 @@ In this lecture, we'll be getting this cat to show up on a web page :)
     background-color: red;
 }
 ```
+
