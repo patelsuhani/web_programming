@@ -36,7 +36,13 @@ Learning Git, a version control tool, not specific to web programming.
 
 * `git reset --hard origin/master` is used to reset the current version of the local repo to the latest version of the remote repo (on GitHub).
 
-* 
+* `git branch` will tell you what branch you're currently on and what branches exist in the repo.
+
+* `git checkout -b <branch_name>` is used to create and switch to a new branch.
+
+* `git checkout <branch_name>` is used to switch to a branch that already exists.
+
+* `git merge <branch_name>` will attempt to merge whatever is on the [branch_name] branch onto the current branch.
 
 ### Terminology
 
@@ -46,16 +52,22 @@ Learning Git, a version control tool, not specific to web programming.
 
  * When resolving a merge conflict, the changes between <<<<<HEAD and ====== are the changes made in the local repo. and the changes between ====== and >>>>> Hash ID are the changes made in the remote repo. For example:
 
- ![resolving merge conflict](./merge_conflict.jpeg)
+ ![resolving merge conflict](./merge_conflict.jpg)
 
  * To **resolve a merge conflict**, open the file with the conflict(s) and modify it until you are satisfied with the changes and remove the commit markers that git added automatically.
 
  * **hash** is the unique sequence of numbers and characters that helps to identify any particular commit.
 
+* **Branches** are Git's way of working on different parts of the repo at the same time.
+
 * At any given time, your focus is only on one of the branches. And where your focus is, what is the current state of your repo is, is designated by **head**.
 
-* 
+* You can work on different branches by switching where your head is, switching from one branch to another.
 
-### Branching
+* Only when you're satisfied, we can merge changes from different branches so that everything comes back to a unified branch.
 
-* **Branches** are Git's way of working on different parts of the repo at the same time.
+* **Forking** a GitHub repo means making your own copy of the original repo.
+
+* Generate a **Pull request** to request that your code be pulled and merged into a shared remote repo.
+
+* **Git Pages** allows you to create and publish your own website that other people can view.
