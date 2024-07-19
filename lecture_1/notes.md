@@ -52,4 +52,10 @@ Learning Git, a version control tool, not specific to web programming.
 
  * **hash** is the unique sequence of numbers and characters that helps to identify any particular commit.
 
- * 
+* At any given time, your focus is only on one of the branches. And where your focus is, what is the current state of your repo is, is designated by **head**.
+
+* 
+
+### Branching
+
+* **Branches** are Git's way of working on different parts of the repo at the same time.
