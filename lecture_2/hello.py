@@ -1,5 +1,12 @@
 name = input("Name:")
 print(f"Hello, {name}!")
+print(name[0])
+
+names = ["Alice", "Bob", "Charlie"]
+print(names)
+print(names[0])
+
+coordinate = (10.0, 20.0)
 
 n = int(input("Number:"))
 

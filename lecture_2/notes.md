@@ -35,3 +35,9 @@ print(f"Hello, {name}!")
 ```
 
 * **Indentation** is required because the indentation is how the program knows what code is inside of the if statement and what code is outside of the if statement. 
+
+* **Sequences** in Python are data types that store values in some sort of sequence or some collection of values altogether. 
+
+* Types of Sequences:
+
+    1. String. Can access different characters within the string using `string[i]` where string is the string whose character you want to extract and i is the index of the required character.
