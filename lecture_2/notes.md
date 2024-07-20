@@ -6,12 +6,20 @@ Developing programs in Python.
 
 ### Functions in Python
 
-* `print()`: prints the arguments to the screen.
+* `print()` prints the arguments to the screen.
+
+* `input("Prompt:")`is used to get input from the user.
 
 ### Terminologies and things to know
 
 * Python is an **interpreted language**, meaning if you run a program called python, which is an **interpreter**, it will read your py file line by line, executing each line and interpreting what it is that it means in a way that the computer can understand.
 
 * To run a py file, type in your terminal `python <filename.py>`
+
+* Python doesn't require you to explicitly state what the type of each variable is.
+
+* Boolean values can be represented using True with a capital T or False with a capital F.
+
+* NoneType: A special type in python which has only one possible value, a capital N, None. It is used to represent the lack of a value somewhere. If a function is not returning anything, it is returning None effectively.
 
 * 
