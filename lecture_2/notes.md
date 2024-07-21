@@ -14,6 +14,14 @@ Developing programs in Python.
 
 * `int()` takes anything and turns it into an integer.
 
+* To define your own function, use def. For example:
+```
+def square(x):
+    return x * x
+for i in range(10):
+    print(f"The square of {i} is {square(i)}")
+```
+
 ### Terminologies and things to know
 
 * Python is an **interpreted language**, meaning if you run a program called python, which is an **interpreter**, it will read your py file line by line, executing each line and interpreting what it is that it means in a way that the computer can understand.

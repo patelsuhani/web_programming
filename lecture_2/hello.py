@@ -1,3 +1,5 @@
+from square import square
+
 name = input("Name:")
 print(f"Hello, {name}!")
 print(name[0])
@@ -55,3 +57,7 @@ ages = {"Alice": 22, "Bob": 27}
 ages["Charlie"] = 30
 print(ages["Alice"])
 print(ages["Charlie"])
+
+# functions
+for i in range(10):
+    print(f"The square of {i} is {square(i)}")
