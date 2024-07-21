@@ -1,5 +1,9 @@
 from square import square
 
+# to write programs that interact with csv files, we need to import the csv module
+import csv
+import math
+
 name = input("Name:")
 print(f"Hello, {name}!")
 print(name[0])

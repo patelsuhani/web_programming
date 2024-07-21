@@ -15,12 +15,12 @@ Developing programs in Python.
 * `int()` takes anything and turns it into an integer.
 
 * To define your own function, use def. For example:
-```
-def square(x):
-    return x * x
-for i in range(10):
-    print(f"The square of {i} is {square(i)}")
-```
+    ```
+    def square(x):
+        return x * x
+    for i in range(10):
+        print(f"The square of {i} is {square(i)}")
+    ```
 
 ### Terminologies and things to know
 
@@ -79,6 +79,7 @@ print(f"Hello, {name}!")
     # to add a new key-value pair to a dict
     ages["Charlie"] = 30
     ```
+* To write programs that interact with csv files, we need to **import** the csv module.
 
 ### Loops in Python
 
@@ -102,3 +103,8 @@ print(f"Hello, {name}!")
     for character in string:
         print(character)
     ```
+### Object Oriented Programming
+
+* In OOP we think about the worl in terms on objects where objects might store information inside of them and also support the ability to perform some operations or methods or functions on them.
+
+* A class is a template for a type of object. You can create your own types by defining your own classes.
