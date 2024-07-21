@@ -37,3 +37,12 @@ else:
 
 for i in [0, 1, 2, 3, 4]:
     print(i)
+
+for i in range(6):
+    print(i)
+
+
+# for-each loop
+flowers = ["rose", "lily", "tulip"]
+for flower in flowers:
+    print(flower)
