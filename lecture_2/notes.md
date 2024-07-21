@@ -130,3 +130,9 @@ people.sort(key = lambda person : person['name'])
 * A decorator takes a function as input and returns a modified version of that function as output.
 
 * To add a decorator use the "@" symbol.
+
+### Exceptions
+
+* **try and except** similar to Java's try-catch block.
+
+* if you import the pre-defined sys module, you can say sys.exit(1) to mean exit the program with a status code of 1 generally means something went wrong in this program.
