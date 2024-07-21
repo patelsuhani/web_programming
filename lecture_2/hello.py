@@ -46,3 +46,12 @@ for i in range(6):
 flowers = ["rose", "lily", "tulip"]
 for flower in flowers:
     print(flower)
+
+for character in flowers[0]:
+    print(character)
+
+# define a dictionary
+ages = {"Alice": 22, "Bob": 27}
+ages["Charlie"] = 30
+print(ages["Alice"])
+print(ages["Charlie"])

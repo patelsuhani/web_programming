@@ -60,12 +60,37 @@ print(f"Hello, {name}!")
         - `.add(i)` to add a new element 'i', not in a particular order.
         - `.remove(i)` to remove a particular element 'i' from anywhere in the set.
         - `len(set)` gives the number of elements inside a set.
-    4. **dict**: collection of key-value pairs
+    4. **dict**: collection of key-value pairs.
+    ```
+    # define a dictionary
+    ages = {"Alice": 22, "Bob": 27}
+
+    # accessing a particular value using a key
+    print(ages["Alice"])
+
+    # to add a new key-value pair to a dict
+    ages["Charlie"] = 30
+    ```
 
 ### Loops in Python
 
 * For Loop:
- ```
- for i in [0, 1, 2, 3, 4]:
-    print(i)
-```
+    ```
+    for i in [0, 1, 2, 3, 4]:
+        print(i)
+    
+    # is equivalent to 
+    
+    for i in range(5):
+        print(i)
+    ```
+* For each loop
+    ```
+    for element in list:
+        print(element)
+    
+    # or
+
+    for character in string:
+        print(character)
+    ```
