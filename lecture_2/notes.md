@@ -22,6 +22,10 @@ Developing programs in Python.
         print(f"The square of {i} is {square(i)}")
     ```
 
+* `__init__` creates a class object by storing inputs, if any, inside of the object.
+
+* In a class definition, the word "self" is used in the same way as the "this" key word in Java. It is used to referer to the class object itself.
+
 ### Terminologies and things to know
 
 * Python is an **interpreted language**, meaning if you run a program called python, which is an **interpreter**, it will read your py file line by line, executing each line and interpreting what it is that it means in a way that the computer can understand.
