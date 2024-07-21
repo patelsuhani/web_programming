@@ -32,3 +32,8 @@ elif(n < 0):
     print("n is negative")
 else:
     print("n is zero")
+
+# for loop
+
+for i in [0, 1, 2, 3, 4]:
+    print(i)

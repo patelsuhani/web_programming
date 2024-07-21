@@ -61,3 +61,11 @@ print(f"Hello, {name}!")
         - `.remove(i)` to remove a particular element 'i' from anywhere in the set.
         - `len(set)` gives the number of elements inside a set.
     4. **dict**: collection of key-value pairs
+
+### Loops in Python
+
+* For Loop:
+ ```
+ for i in [0, 1, 2, 3, 4]:
+    print(i)
+```
