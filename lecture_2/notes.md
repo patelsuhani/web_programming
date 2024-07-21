@@ -112,3 +112,11 @@ print(f"Hello, {name}!")
 * In OOP we think about the worl in terms on objects where objects might store information inside of them and also support the ability to perform some operations or methods or functions on them.
 
 * A class is a template for a type of object. You can create your own types by defining your own classes.
+
+### Functional Programming
+
+* **Decorators** are a way in Python of taking a function, and modifying that function, adding some additional behavior to that function.
+
+* A decorator takes a function as input and returns a modified version of that function as output.
+
+* To add a decorator use the "@" symbol.
