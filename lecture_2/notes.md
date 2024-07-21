@@ -45,7 +45,17 @@ Developing programs in Python.
 name = input("Name:")
 print(f"Hello, {name}!")
 ```
+* **lambda** is a condensed verion of a function. For example:
+```
+def f(person):
+    return person['name']
 
+people.sort(key = f)
+
+# is the same as
+
+people.sort(key = lambda person : person['name'])
+```
 * **Indentation** is required because the indentation is how the program knows what code is inside of the if statement and what code is outside of the if statement. 
 
 * **Sequences** in Python are data types that store values in some sort of sequence or some collection of values altogether. Multiple elements can have the same value.
