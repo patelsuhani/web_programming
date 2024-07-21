@@ -2,9 +2,13 @@ name = input("Name:")
 print(f"Hello, {name}!")
 print(name[0])
 
-names = ["Alice", "Bob", "Charlie"]
+# define a list of names
+names = ["David", "Bob", "Charlie"]
 print(names)
 print(names[0])
+names.append("Alice")
+names.sort()
+print(names)
 
 coordinate = (10.0, 20.0)
 
