@@ -36,7 +36,7 @@ print(f"Hello, {name}!")
 
 * **Indentation** is required because the indentation is how the program knows what code is inside of the if statement and what code is outside of the if statement. 
 
-* **Sequences** in Python are data types that store values in some sort of sequence or some collection of values altogether. 
+* **Sequences** in Python are data types that store values in some sort of sequence or some collection of values altogether. Multiple elements can have the same value.
 
 * Mutable means you can change the elements, i.e., add new elements, remove elements, and change the values of elements.
 
@@ -44,13 +44,20 @@ print(f"Hello, {name}!")
 
 * Types of Sequences:
 
-    1. **String**. Can access different characters within the string using `string[i]` where string is the string whose character you want to extract and i is the index of the required character.
+    1. **String**. Can access different characters within the string using `string[i]` where string is the string whose character you want to extract and i is the index of the required character. Methods:
+        - `len(string)`gives the number of characters in a string.
     2. **List**: Can store any type of data inside a list in Python. It is a sequence of mutable values.
     3. **Tuple**: A tuple is used when you have a couple of values that are not going to change but you need to store 2 or more values together. Sequence of immutable values.
 
 * Types of Data Structures:
 
-    1. **List**
+    1. **List**: Methods:
+        - `.append(i)` to add a new element 'i' to the end of the list.
+        - `.sort()` to sort the elements in a particular order. The order is not user defined.
+        - `len(list)` gives the number of elements inside a list.
     2. **Tuple**
-    3. **Set**: collection of unique values
+    3. **Set**: collection of unique values. Does not keep things in a particular order. Methods:
+        - `.add(i)` to add a new element 'i', not in a particular order.
+        - `.remove(i)` to remove a particular element 'i' from anywhere in the set.
+        - `len(set)` gives the number of elements inside a set.
     4. **dict**: collection of key-value pairs
