@@ -10,5 +10,7 @@ urlpatterns = [
     # views represents views.py file in the hello app
     # index represents the index function in the views.py file
     # name makes it easy to refer to this URL elsewhere in Django, especially in templates 
-    path("", views.index, name="index")
+    path("", views.index, name="index"),
+    path("<str:name>", views.greet, name="greet"),
+    path("suhani", views.suhani, name="suhani")
 ]
