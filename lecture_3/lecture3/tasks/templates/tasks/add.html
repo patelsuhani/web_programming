@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Tasks</title>
-</head>
-<body>
+{% extends "tasks/layout.html" %}
+
+{% block body %}
     <h1>Add Task</h1>
-    <form>
-        <input type="text" name="task">
+    <form action="{% url 'tasks:add' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
         <input type="submit">
     </form>
-</html>
+    <a href="{% url 'tasks:index' %}">Back to Tasks</a>
+{% endblock %}
